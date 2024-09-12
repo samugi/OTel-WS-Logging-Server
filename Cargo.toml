@@ -1,0 +1,13 @@
+[package]
+name = "OpenTelemeTRust"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+flate2 = "1.0.33"
+websocket = "0.27.1"
+prost = "0.13.2"
+prost-types = "0.13.2"
+tonic = "0.10"
+opentelemetry-proto = "0.25.0"
+
